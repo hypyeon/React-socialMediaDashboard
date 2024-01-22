@@ -8,7 +8,7 @@ By Hayeong
 - This project is to review React components, practice planning the project with draw.io, and creating a social media platform application (non-functional this time). 
 
 ## Practice Instruction
-![Instruction](./src/img/instruction.png)
+![Instruction](./src/img/instruction-dark.png)
 
 ## Planning (diagram)
 
