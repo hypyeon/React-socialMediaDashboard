@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600&display=swap');
+
 $lightGrey: rgb(168, 168, 168);
+$primaryFont: 'Zilla Slab', serif;
 
 @mixin flex-center {
     display: flex;
@@ -12,12 +15,14 @@ $lightGrey: rgb(168, 168, 168);
 }
 @mixin div-style {
     border: 2px solid $lightGrey;
+    background-color: white;
 }
 
 * {
     padding: 0;
     margin: 0;
     color: rgb(92, 92, 92);
+    font-family: $primaryFont;
 }
 header {
     width: 100vw;
@@ -53,6 +58,7 @@ main {
     justify-content: center;
     gap: 2rem;
     padding-top: 2rem;
+    background-color: rgb(249, 247, 247);
     #bio {
         display: flex;
         flex-direction: column;
@@ -70,6 +76,22 @@ main {
             #info {
                 padding: 1rem;
                 text-align: center;
+                #icon-name {
+                    @include flex-center;
+                    margin-top: -.75rem;
+                    div {
+                        background-color: rgb(148, 193, 255);
+                        width: 3rem;
+                        height: 3rem;
+                        @include flex-center;
+                        margin-top: -1.75rem;
+                        border-radius: 15px;
+                        border: 3px solid white;
+                    }
+                    h3 {
+                        padding-left: 1.25rem;
+                    }
+                }
                 ul {
                     list-style: none;
                     margin-top: 1rem;

@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600&display=swap");
 * {
   padding: 0;
   margin: 0;
   color: rgb(92, 92, 92);
+  font-family: "Zilla Slab", serif;
 }
 
 header {
@@ -37,6 +39,7 @@ main {
   justify-content: center;
   gap: 2rem;
   padding-top: 2rem;
+  background-color: rgb(249, 247, 247);
 }
 main #bio {
   display: flex;
@@ -46,6 +49,7 @@ main #bio {
 }
 main #bio .div {
   border: 2px solid rgb(168, 168, 168);
+  background-color: white;
 }
 main #bio #bio-1 #cover {
   content: "";
@@ -55,6 +59,26 @@ main #bio #bio-1 #cover {
 main #bio #bio-1 #info {
   padding: 1rem;
   text-align: center;
+}
+main #bio #bio-1 #info #icon-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -0.75rem;
+}
+main #bio #bio-1 #info #icon-name div {
+  background-color: rgb(148, 193, 255);
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1.75rem;
+  border-radius: 15px;
+  border: 3px solid white;
+}
+main #bio #bio-1 #info #icon-name h3 {
+  padding-left: 1.25rem;
 }
 main #bio #bio-1 #info ul {
   list-style: none;
@@ -74,6 +98,7 @@ main #notification {
   width: 32vw;
   height: 65vh;
   border: 2px solid rgb(168, 168, 168);
+  background-color: white;
 }
 main #notification #post-header {
   display: flex;
@@ -129,6 +154,7 @@ main #notification #green {
 }
 main #contacts {
   border: 2px solid rgb(168, 168, 168);
+  background-color: white;
   height: -moz-fit-content;
   height: fit-content;
 }

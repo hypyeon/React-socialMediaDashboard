@@ -1,4 +1,5 @@
 import React from 'react';
+import userIcon from '../img/user-icon.png';
 
 export default function Bio() {
     return (
@@ -6,7 +7,12 @@ export default function Bio() {
             <div class="div" id="bio-1">
                 <div id="cover"></div>
                 <div id="info">
-                    <h3>Jim Harpert</h3>
+                    <div id="icon-name">
+                        <div>
+                            <img src={userIcon} alt="User"/>
+                        </div>
+                        <h3>Jim Harpert</h3>
+                    </div>
                     <ul>
                         <li>TWEETS 0</li>
                         <li>FOLLOWING 12</li>
