@@ -1,1 +1,169 @@
-/*# sourceMappingURL=index.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  color: rgb(92, 92, 92);
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+  border-bottom: 1px solid rgb(168, 168, 168);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(242, 242, 242);
+}
+header .nav-bar a {
+  padding: 1rem 1.5rem;
+  border: 1px solid rgb(168, 168, 168);
+  text-decoration: none;
+  text-align: center;
+  color: gray;
+  margin-left: 0.25rem;
+  background-color: white;
+}
+header #search-bar input, header #search-bar button {
+  border: 3px solid rgb(47, 133, 255);
+  padding: 0.25rem 0.75rem;
+  margin: 0 0.5rem;
+  background-color: white;
+  border-radius: 15px;
+}
+
+main {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+main #bio {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 18vw;
+}
+main #bio .div {
+  border: 2px solid rgb(168, 168, 168);
+}
+main #bio #bio-1 #cover {
+  content: "";
+  height: 6rem;
+  background-color: rgb(47, 133, 255);
+}
+main #bio #bio-1 #info {
+  padding: 1rem;
+  text-align: center;
+}
+main #bio #bio-1 #info ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+main #bio #bio-1 #info ul li {
+  font-size: 0.75rem;
+  display: inline-block;
+}
+main #bio #bio-1 #info ul li:not(:last-child) {
+  margin-right: 1rem;
+}
+main #bio #bio-2 {
+  padding: 1rem 2rem 3rem 1rem;
+}
+main #notification {
+  width: 32vw;
+  height: 65vh;
+  border: 2px solid rgb(168, 168, 168);
+}
+main #notification #post-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem;
+  background-color: rgb(225, 235, 253);
+}
+main #notification #post-header #talk-icon img {
+  width: 1.75rem;
+}
+main #notification #post-header #post-input input {
+  border: 1.5px solid rgb(126, 171, 255);
+  border-radius: 3px;
+  padding: 0.25rem 0.5rem;
+  width: 24vw;
+}
+main #notification #post-header #post-input input::-moz-placeholder {
+  color: rgb(126, 171, 255);
+}
+main #notification #post-header #post-input input::placeholder {
+  color: rgb(126, 171, 255);
+}
+main #notification .post {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid rgb(168, 168, 168);
+  padding: 1rem 1rem 2rem 1rem;
+}
+main #notification .post .user-icon {
+  min-width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #notification .post .post-content {
+  margin-left: 1rem;
+}
+main #notification .post .post-content p {
+  margin-top: 0.25rem;
+  padding-right: 1rem;
+}
+main #notification #yellow {
+  background-color: rgb(250, 243, 164);
+}
+main #notification #blue {
+  background-color: rgb(172, 207, 255);
+}
+main #notification #green {
+  background-color: rgb(180, 243, 203);
+}
+main #contacts {
+  border: 2px solid rgb(168, 168, 168);
+  height: -moz-fit-content;
+  height: fit-content;
+}
+main #contacts h2 {
+  text-align: center;
+  padding: 1rem;
+}
+main #contacts .user {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+main #contacts .user .user-icon {
+  min-width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #contacts .user #yellow {
+  background-color: rgb(250, 243, 164);
+}
+main #contacts .user #blue {
+  background-color: rgb(172, 207, 255);
+}
+main #contacts .user #green {
+  background-color: rgb(180, 243, 203);
+}
+main #contacts .user .contact-btn {
+  margin-left: 1rem;
+}
+main #contacts .user .contact-btn button {
+  margin-top: 0.5rem;
+  background-color: rgb(47, 133, 255);
+  border: none;
+  padding: 0.25rem 0.75rem;
+  color: white;
+}/*# sourceMappingURL=index.css.map */
