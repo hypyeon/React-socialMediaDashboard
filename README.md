@@ -6,6 +6,9 @@ By Hayeong
 - This is an in-class practice in **React Fundamentals** course provided by Epicodus. 
 - This project is to review React components, practice planning the project with draw.io, and creating a social media platform application (non-functional this time). 
 
+## Planning (diagram)
+![Diagram](./src/img/SocialMediaPlatform.jpg)
+
 ## Available Scripts
 
 In the project directory, you can run:
